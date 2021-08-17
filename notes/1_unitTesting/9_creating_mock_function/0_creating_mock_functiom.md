@@ -1,2 +1,2 @@
-- some time we need to test a funtion whic is dependent on some other function/db response/ http call.
+- some time we need to test a funtion which is dependent on some other function/db-response/ http call.
 - then to test such function we need to replace dependent function by a moke function in our test.

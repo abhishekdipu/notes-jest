@@ -19,7 +19,7 @@ const result = mockFunction();
 console.log(result); //1
 
 //to make mockFunction return resolved promise
-mockFunction.mockReslvedValue(1);
+mockFunction.mockResolvedValue(1);
 const result = await mockFunction();
 console.log(result); //1
 
