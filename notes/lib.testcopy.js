@@ -85,7 +85,6 @@ describe("registerUser", () => {
   });
 });
 
-//Testing dependent functions
 describe("applyDiscount", () => {
   it("should apply 10% discount if customer has more than 10 points", () => {
     //creating a moke of getCustomerSync

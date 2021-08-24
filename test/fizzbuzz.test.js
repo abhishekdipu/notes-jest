@@ -1,4 +1,4 @@
-const ex = require("../exerice1");
+const ex = require("../fizzbuzz");
 
 describe("fizzBuzz", () => {
   it("should throw exception if input is not number", () => {
@@ -21,5 +21,10 @@ describe("fizzBuzz", () => {
   it("should return FizzBuzz if number is div by 3 and 5", () => {
     const result = ex.fizzBuzz(15);
     expect(result).toBe("FizzBuzz");
+  });
+
+  it("should return the number if number is not div by 3 or 5", () => {
+    const result = ex.fizzBuzz(1);
+    expect(result).toBe(1);
   });
 });

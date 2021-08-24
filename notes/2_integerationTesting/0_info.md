@@ -1,4 +1,6 @@
-for integeration testing we need to take care of more than one sources
+# Integeration tests
+
+- for integeration testing we need to take care of more than one sources
 
 - we may have to create a test DB and populate it with test data (for testing)
 - we may have to make http request
